@@ -1,0 +1,475 @@
+18:50:04 **** Build of project tftp_server_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/freertos901_xilinx_v1_1/src"
+make -C ps7_cortexa9_0/libsrc/freertos901_xilinx_v1_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"include"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/lwip141_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/lwip141_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/freertos901_xilinx_v1_1/src"
+make -C ps7_cortexa9_0/libsrc/freertos901_xilinx_v1_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling standalone"
+"Compiling FreeRTOS"
+arm-none-eabi-ar: creating ../../../lib/libfreertos.a
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/lwip141_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/lwip141_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling lwip src and adapter files"
+In file included from ../../../include/lwip/ip.h:39:0,
+                 from lwip-1.4.1/src/core/ipv4/ip.c:42:
+lwip-1.4.1/src/core/ipv4/ip.c: In function 'ip_input':
+../../../include/lwip/ip_addr.h:200:39: warning: the comparison will always evaluate as 'false' for the address of 'current_iphdr_src' will never be NULL [-Waddress]
+ #define ip_addr_isany(addr1) ((addr1) == NULL || (addr1)->addr == IPADDR_ANY)
+                                       ^
+lwip-1.4.1/src/core/ipv4/ip.c:473:24: note: in expansion of macro 'ip_addr_isany'
+   if (check_ip_src && !ip_addr_isany(&current_iphdr_src))
+                        ^~~~~~~~~~~~~
+In file included from ../../../include/lwip/netif.h:41:0,
+                 from ../../../include/lwip/udp.h:40,
+                 from lwip-1.4.1/src/core/dhcp.c:75:
+lwip-1.4.1/src/core/dhcp.c: In function 'dhcp_bind':
+../../../include/lwip/ip_addr.h:200:39: warning: the comparison will always evaluate as 'false' for the address of 'gw_addr' will never be NULL [-Waddress]
+ #define ip_addr_isany(addr1) ((addr1) == NULL || (addr1)->addr == IPADDR_ANY)
+                                       ^
+lwip-1.4.1/src/core/dhcp.c:987:7: note: in expansion of macro 'ip_addr_isany'
+   if (ip_addr_isany(&gw_addr)) {
+       ^~~~~~~~~~~~~
+In file included from ../../../include/xemacps.h:348:0,
+                 from ../../../include/netif/xemacpsif.h:59,
+                 from contrib/ports/xilinx/netif/xemacpsif_dma.c:39:
+contrib/ports/xilinx/netif/xemacpsif_dma.c: In function 'init_dma':
+../../../include/xemacps_bd.h:163:62: warning: 'bdrxterminate' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     (*(u32 *)((UINTPTR)(void*)(BaseAddress) + (u32)(Offset)) = (u32)(Data))
+                                                              ^
+contrib/ports/xilinx/netif/xemacpsif_dma.c:558:14: note: 'bdrxterminate' was declared here
+  XEmacPs_Bd *bdrxterminate;
+              ^~~~~~~~~~~~~
+In file included from ../../../include/xemacps.h:348:0,
+                 from ../../../include/netif/xemacpsif.h:59,
+                 from contrib/ports/xilinx/netif/xemacpsif_dma.c:39:
+../../../include/xemacps_bd.h:163:15: warning: 'bdtxterminate' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     (*(u32 *)((UINTPTR)(void*)(BaseAddress) + (u32)(Offset)) = (u32)(Data))
+               ^
+contrib/ports/xilinx/netif/xemacpsif_dma.c:557:14: note: 'bdtxterminate' was declared here
+  XEmacPs_Bd *bdtxterminate;
+              ^~~~~~~~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+18:50:43 **** Build of configuration Debug for project tftp_server ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: tftp_server.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../tftp_server_bsp/ps7_cortexa9_0/lib -o "tftp_server.elf"  ./src/echo.o ./src/iic_phyreset.o ./src/main.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: tftp_server.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size tftp_server.elf  |tee "tftp_server.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 181636	   4232	2218272	2404140	 24af2c	tftp_server.elf
+'Finished building: tftp_server.elf.size'
+' '
+18:54:41 **** Auto Build of configuration Debug for project tftp_server ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/mfs_filesys.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mfs_filesys.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/mfs_filesys.d" -MT"src/mfs_filesys.o" -o "src/mfs_filesys.o" "../src/mfs_filesys.c"
+'Finished building: ../src/mfs_filesys.c'
+' '
+'Building file: ../src/mfs_filesys_util.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mfs_filesys_util.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/mfs_filesys_util.d" -MT"src/mfs_filesys_util.o" -o "src/mfs_filesys_util.o" "../src/mfs_filesys_util.c"
+../src/mfs_filesys_util.c: In function 'mfs_ls_r':
+../src/mfs_filesys_util.c:76:5: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+     print("Directory ");
+     ^~~~~
+../src/mfs_filesys_util.c:79:5: warning: implicit declaration of function 'putnum' [-Wimplicit-function-declaration]
+     putnum(entry_size);
+     ^~~~~~
+'Finished building: ../src/mfs_filesys_util.c'
+' '
+'Building file: ../src/prot_malloc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/prot_malloc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/prot_malloc.d" -MT"src/prot_malloc.o" -o "src/prot_malloc.o" "../src/prot_malloc.c"
+'Finished building: ../src/prot_malloc.c'
+' '
+'Building file: ../src/tftpserver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tftpserver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tftpserver.d" -MT"src/tftpserver.o" -o "src/tftpserver.o" "../src/tftpserver.c"
+'Finished building: ../src/tftpserver.c'
+' '
+'Building file: ../src/tftputils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tftputils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tftputils.d" -MT"src/tftputils.o" -o "src/tftputils.o" "../src/tftputils.c"
+'Finished building: ../src/tftputils.c'
+' '
+'Building target: tftp_server.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../tftp_server_bsp/ps7_cortexa9_0/lib -o "tftp_server.elf"  ./src/echo.o ./src/iic_phyreset.o ./src/main.o ./src/mfs_filesys.o ./src/mfs_filesys_util.o ./src/prot_malloc.o ./src/tftpserver.o ./src/tftputils.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: tftp_server.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size tftp_server.elf  |tee "tftp_server.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 222284	   4264	2218272	2444820	 254e14	tftp_server.elf
+'Finished building: tftp_server.elf.size'
+' '
+18:55:42 **** Auto Build of configuration Debug for project tftp_server ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main_thread':
+../src/main.c:193:28: error: 'APPLICATION_THREAD' undeclared (first use in this function)
+    sys_thread_new("echod", APPLICATION_THREAD, 0,
+                            ^~~~~~~~~~~~~~~~~~
+../src/main.c:193:28: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/main.o] Error 1
+18:55:48 **** Auto Build of configuration Debug for project tftp_server ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: tftp_server.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../tftp_server_bsp/ps7_cortexa9_0/lib -o "tftp_server.elf"  ./src/echo.o ./src/iic_phyreset.o ./src/main.o ./src/mfs_filesys.o ./src/mfs_filesys_util.o ./src/prot_malloc.o ./src/tftpserver.o ./src/tftputils.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: tftp_server.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size tftp_server.elf  |tee "tftp_server.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 222284	   4264	2218272	2444820	 254e14	tftp_server.elf
+'Finished building: tftp_server.elf.size'
+' '
+18:56:16 **** Clean-only build of configuration Debug for project tftp_server ****
+make clean 
+rm -rf  ./src/echo.o ./src/iic_phyreset.o ./src/main.o ./src/mfs_filesys.o ./src/mfs_filesys_util.o ./src/prot_malloc.o ./src/tftpserver.o ./src/tftputils.o  ./src/echo.d ./src/iic_phyreset.d ./src/main.d ./src/mfs_filesys.d ./src/mfs_filesys_util.d ./src/prot_malloc.d ./src/tftpserver.d ./src/tftputils.d  tftp_server.elf.size  tftp_server.elf
+' '
+18:56:16 **** Auto Build of configuration Debug for project tftp_server ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/mfs_filesys.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mfs_filesys.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/mfs_filesys.d" -MT"src/mfs_filesys.o" -o "src/mfs_filesys.o" "../src/mfs_filesys.c"
+'Finished building: ../src/mfs_filesys.c'
+' '
+'Building file: ../src/mfs_filesys_util.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mfs_filesys_util.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/mfs_filesys_util.d" -MT"src/mfs_filesys_util.o" -o "src/mfs_filesys_util.o" "../src/mfs_filesys_util.c"
+../src/mfs_filesys_util.c: In function 'mfs_ls_r':
+../src/mfs_filesys_util.c:76:5: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+     print("Directory ");
+     ^~~~~
+../src/mfs_filesys_util.c:79:5: warning: implicit declaration of function 'putnum' [-Wimplicit-function-declaration]
+     putnum(entry_size);
+     ^~~~~~
+'Finished building: ../src/mfs_filesys_util.c'
+' '
+'Building file: ../src/prot_malloc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/prot_malloc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/prot_malloc.d" -MT"src/prot_malloc.o" -o "src/prot_malloc.o" "../src/prot_malloc.c"
+'Finished building: ../src/prot_malloc.c'
+' '
+'Building file: ../src/tftpserver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tftpserver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tftpserver.d" -MT"src/tftpserver.o" -o "src/tftpserver.o" "../src/tftpserver.c"
+'Finished building: ../src/tftpserver.c'
+' '
+'Building file: ../src/tftputils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tftputils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tftputils.d" -MT"src/tftputils.o" -o "src/tftputils.o" "../src/tftputils.c"
+'Finished building: ../src/tftputils.c'
+' '
+'Building target: tftp_server.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../tftp_server_bsp/ps7_cortexa9_0/lib -o "tftp_server.elf"  ./src/iic_phyreset.o ./src/main.o ./src/mfs_filesys.o ./src/mfs_filesys_util.o ./src/prot_malloc.o ./src/tftpserver.o ./src/tftputils.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+./src/main.o: In function `main_thread':
+D:\PyramidTech\5-Design_Document\LwIP\TFTP\ZyboZ7-20_TFTPserver\ZyboZ7-20_TFTPserver.sdk\tftp_server\Debug/../src/main.c:191: undefined reference to `print_echo_app_header'
+D:\PyramidTech\5-Design_Document\LwIP\TFTP\ZyboZ7-20_TFTPserver\ZyboZ7-20_TFTPserver.sdk\tftp_server\Debug/../src/main.c:213: undefined reference to `print_echo_app_header'
+collect2.exe: error: ld returned 1 exit status
+make: *** [tftp_server.elf] Error 1
+18:57:05 **** Auto Build of configuration Debug for project tftp_server ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main_thread':
+../src/main.c:191:4: warning: implicit declaration of function 'print_tftp_app_header' [-Wimplicit-function-declaration]
+    print_tftp_app_header();
+    ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: tftp_server.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../tftp_server_bsp/ps7_cortexa9_0/lib -o "tftp_server.elf"  ./src/iic_phyreset.o ./src/main.o ./src/mfs_filesys.o ./src/mfs_filesys_util.o ./src/prot_malloc.o ./src/tftpserver.o ./src/tftputils.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: tftp_server.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size tftp_server.elf  |tee "tftp_server.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 221348	   4264	2218272	2443884	 254a6c	tftp_server.elf
+'Finished building: tftp_server.elf.size'
+' '
+18:57:35 **** Auto Build of configuration Debug for project tftp_server ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main_thread':
+../src/main.c:191:4: warning: implicit declaration of function 'print_tftp_app_header' [-Wimplicit-function-declaration]
+    print_tftp_app_header();
+    ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: tftp_server.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../tftp_server_bsp/ps7_cortexa9_0/lib -o "tftp_server.elf"  ./src/iic_phyreset.o ./src/main.o ./src/mfs_filesys.o ./src/mfs_filesys_util.o ./src/prot_malloc.o ./src/tftpserver.o ./src/tftputils.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: tftp_server.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size tftp_server.elf  |tee "tftp_server.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 221348	   4264	2218272	2443884	 254a6c	tftp_server.elf
+'Finished building: tftp_server.elf.size'
+' '
+19:04:07 **** Auto Build of configuration Debug for project tftp_server ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main_thread':
+../src/main.c:189:4: warning: implicit declaration of function 'print_tftp_app_header' [-Wimplicit-function-declaration]
+    print_tftp_app_header();
+    ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: tftp_server.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../tftp_server_bsp/ps7_cortexa9_0/lib -o "tftp_server.elf"  ./src/iic_phyreset.o ./src/main.o ./src/mfs_filesys.o ./src/mfs_filesys_util.o ./src/prot_malloc.o ./src/tftpserver.o ./src/tftputils.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: tftp_server.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size tftp_server.elf  |tee "tftp_server.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 221204	   4264	2218272	2443740	 2549dc	tftp_server.elf
+'Finished building: tftp_server.elf.size'
+' '
+20:26:36 **** Clean-only build of configuration Debug for project tftp_server ****
+make clean 
+rm -rf  ./src/iic_phyreset.o ./src/main.o ./src/mfs_filesys.o ./src/mfs_filesys_util.o ./src/prot_malloc.o ./src/tftpserver.o ./src/tftputils.o  ./src/iic_phyreset.d ./src/main.d ./src/mfs_filesys.d ./src/mfs_filesys_util.d ./src/prot_malloc.d ./src/tftpserver.d ./src/tftputils.d  tftp_server.elf.size  tftp_server.elf
+' '
+20:26:37 **** Incremental Build of configuration Debug for project tftp_server ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main_thread':
+../src/main.c:189:4: warning: implicit declaration of function 'print_tftp_app_header' [-Wimplicit-function-declaration]
+    print_tftp_app_header();
+    ^~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/mfs_filesys.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mfs_filesys.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/mfs_filesys.d" -MT"src/mfs_filesys.o" -o "src/mfs_filesys.o" "../src/mfs_filesys.c"
+'Finished building: ../src/mfs_filesys.c'
+' '
+'Building file: ../src/mfs_filesys_util.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mfs_filesys_util.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/mfs_filesys_util.d" -MT"src/mfs_filesys_util.o" -o "src/mfs_filesys_util.o" "../src/mfs_filesys_util.c"
+../src/mfs_filesys_util.c: In function 'mfs_ls_r':
+../src/mfs_filesys_util.c:76:5: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+     print("Directory ");
+     ^~~~~
+../src/mfs_filesys_util.c:79:5: warning: implicit declaration of function 'putnum' [-Wimplicit-function-declaration]
+     putnum(entry_size);
+     ^~~~~~
+'Finished building: ../src/mfs_filesys_util.c'
+' '
+'Building file: ../src/prot_malloc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/prot_malloc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/prot_malloc.d" -MT"src/prot_malloc.o" -o "src/prot_malloc.o" "../src/prot_malloc.c"
+'Finished building: ../src/prot_malloc.c'
+' '
+'Building file: ../src/tftpserver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tftpserver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tftpserver.d" -MT"src/tftpserver.o" -o "src/tftpserver.o" "../src/tftpserver.c"
+'Finished building: ../src/tftpserver.c'
+' '
+'Building file: ../src/tftputils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tftputils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tftputils.d" -MT"src/tftputils.o" -o "src/tftputils.o" "../src/tftputils.c"
+'Finished building: ../src/tftputils.c'
+' '
+'Building target: tftp_server.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../tftp_server_bsp/ps7_cortexa9_0/lib -o "tftp_server.elf"  ./src/iic_phyreset.o ./src/main.o ./src/mfs_filesys.o ./src/mfs_filesys_util.o ./src/prot_malloc.o ./src/tftpserver.o ./src/tftputils.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: tftp_server.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size tftp_server.elf  |tee "tftp_server.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 221204	   4264	2218272	2443740	 2549dc	tftp_server.elf
+'Finished building: tftp_server.elf.size'
+' '
+20:27:04 **** Incremental Build of configuration Debug for project tftp_server ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:09:21 **** Auto Build of configuration Debug for project tftp_server ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/tftpserver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tftpserver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tftpserver.d" -MT"src/tftpserver.o" -o "src/tftpserver.o" "../src/tftpserver.c"
+'Finished building: ../src/tftpserver.c'
+' '
+'Building target: tftp_server.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../tftp_server_bsp/ps7_cortexa9_0/lib -o "tftp_server.elf"  ./src/iic_phyreset.o ./src/main.o ./src/mfs_filesys.o ./src/mfs_filesys_util.o ./src/prot_malloc.o ./src/tftpserver.o ./src/tftputils.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: tftp_server.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size tftp_server.elf  |tee "tftp_server.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 221292	   4264	2218272	2443828	 254a34	tftp_server.elf
+'Finished building: tftp_server.elf.size'
+' '

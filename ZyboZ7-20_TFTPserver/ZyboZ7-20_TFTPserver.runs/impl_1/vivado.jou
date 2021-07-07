@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Mar 21 18:29:13 2021
+# Process ID: 11856
+# Current directory: D:/PyramidTech/5-Design_Document/LwIP/TFTP/ZyboZ7-20_TFTPserver/ZyboZ7-20_TFTPserver.runs/impl_1
+# Command line: vivado.exe -log tftp_bd_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source tftp_bd_wrapper.tcl -notrace
+# Log file: D:/PyramidTech/5-Design_Document/LwIP/TFTP/ZyboZ7-20_TFTPserver/ZyboZ7-20_TFTPserver.runs/impl_1/tftp_bd_wrapper.vdi
+# Journal file: D:/PyramidTech/5-Design_Document/LwIP/TFTP/ZyboZ7-20_TFTPserver/ZyboZ7-20_TFTPserver.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source tftp_bd_wrapper.tcl -notrace

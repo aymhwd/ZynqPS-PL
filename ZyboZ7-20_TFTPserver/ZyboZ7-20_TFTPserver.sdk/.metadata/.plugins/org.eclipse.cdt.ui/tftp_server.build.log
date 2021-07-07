@@ -1,0 +1,23 @@
+21:09:21 **** Auto Build of configuration Debug for project tftp_server ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/tftpserver.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tftpserver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../tftp_server_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/tftpserver.d" -MT"src/tftpserver.o" -o "src/tftpserver.o" "../src/tftpserver.c"
+'Finished building: ../src/tftpserver.c'
+' '
+'Building target: tftp_server.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../tftp_server_bsp/ps7_cortexa9_0/lib -o "tftp_server.elf"  ./src/iic_phyreset.o ./src/main.o ./src/mfs_filesys.o ./src/mfs_filesys_util.o ./src/prot_malloc.o ./src/tftpserver.o ./src/tftputils.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: tftp_server.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size tftp_server.elf  |tee "tftp_server.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 221292	   4264	2218272	2443828	 254a34	tftp_server.elf
+'Finished building: tftp_server.elf.size'
+' '
+
+21:09:22 Build Finished (took 1s.214ms)
+
